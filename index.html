@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500&display=swap" rel="stylesheet">
+      <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <div id="outer_c">
+      <!-- contains both image and about info-->
+      <div id="img_c"><!-- contains image -->
+         <img src="attempt.jpg" alt="placeholder-image"><center>Jan (left) and his highschool friend, Dhare (right)</center>
+      </div>
+      <div id="about_c">
+        <!-- contains about that will change with the button clicks-->
+        <nav id="navbar">
+        <div id="ul">
+          <button id="who" class="option" a href="#first" onclick="show('first')">Who am I?</button>
+          <button class="option" a href="#second" onclick="show('second')">My Education</button>
+          <button id="asp" class="option" a href="#third" onclick="show('third')">My Aspirations</button> 
+        </ul>
+      </nav>
+      <div id="text_c">
+        <p id="intro"><br><br><b>Hello</b> & Welcome to my mini site! <br> Click on the above sections to find out more about me</p>
+        </div>
+      <div id="text_b">
+         <div id="first">My name is Jan Bock, I come from Israel and Austria, and to date have lived in 8 countries. I am 20 years old, and am a current student at Durham University.<br><br> My professional interests lie in data science, frontend web development, and sustainable environmental development.<br><br>Otherwise, I am interested in aviation technology/space travel, rugby, and music</div>
+         <div id="second">Throughout my academics, I have been enrolled in American International Schools, an Austrian private schools, and the MYP/IB programme.<br><br>After graduating and receiving my IB degree from the International School of Paris, I took my next step into the University of Durham, studying Physical Geography (B.Sc).<br><br><em>Click on the 'My Aspirations' tab to explore what I hope to pursue in the future...</em></div>
+         <div id="third">It was at Durham University that I became interested in data science and software development, alongside environmental engineering.<br><br>Taking advantage of the Covid-19 pandemic 2020, I taught myself HTML5, CSS3, and am am currently actively learning JavaScript through small project...like this one!<br><br> I am also now working for a start-up called Climate Science...check them out <a target="_blank" href="https://climate-science.com/">here</a></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

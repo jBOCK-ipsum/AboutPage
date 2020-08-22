@@ -1,0 +1,128 @@
+html {
+  background-color: #faf1f1;
+}
+
+#outer_c {
+  display: flex;
+  justify-content: center; /* alingns container horizontally */
+  top: 50%;
+  -ms-transform: translateY(+55%); /* align vertically*/
+  transform: translateY(+55%);
+}
+
+#img_c {
+  display: block;
+  width: 25rem;
+  height: auto;
+  margin: -20px 20px 0 0;
+  z-index: 3;
+  position: relative;
+  font-family: "Baloo Tamma 2", "Courier New";
+  font-size: 14px;
+  background-color: white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-weight: 500;
+  line-height: 22px;
+}
+img {
+  width: inherit;
+  height: auto;
+  border-radius: 10px;
+  z-index: 3;
+  position: relative;
+}
+
+#about_c {
+  display: block;
+  width: 30rem;
+  margin: 10px;
+  height: 18.4rem;
+  background-color: white;
+  border-radius: 20px;
+}
+#ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid: 33% / auto auto auto;
+  grid-gap: 0;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+button {
+  height: 40px;
+  background-color: #fae4e4;
+  border-style: none;
+  font-family: "Baloo Tamma 2", "Courier New", Courier, monospace;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 1s;
+  outline: none;
+}
+button:hover {
+  font-weight: 500;
+  color: black;
+  background-color: #ffd4d4;
+  font-style: italic;
+}
+.active {
+  background-color: white;
+  font-weight: 500;
+  font-size: 16px;
+  outline: none;
+}
+
+.option {
+  padding-top: 5px;
+}
+
+#who {
+  border-top-left-radius: 20px;
+}
+#asp {
+  border-top-right-radius: 20px;
+}
+
+#text_b {
+  margin: 10px 20px 10px 20px;
+  font-family: "Baloo Tamma 2", "Courier New", Courier, monospace;
+  font-weight: 400;
+}
+#text_c {
+  font-family: "Baloo Tamma 2", "Courier New", Courier, monospace;
+  font-weight: 400;
+  margin: 20px 20px 20px 20px;
+  font-size: 14px;
+}
+
+#intro {
+  margin: 35px 20px 10px 20px;
+  font-family: "Baloo Tamma 2", "Courier New", Courier, monospace;
+  font-weight: 400;
+  text-align: center;
+  font-size: 16px;
+}
+
+#first {
+  display: none;
+  margin: 10px 10px 1px 10px;
+  font-size: 10px;
+  transition: display 3s;
+  transition: all 0.3s ease;
+}
+#second {
+  display: none;
+  transition: ease;
+  transition-duration: 3s;
+}
+#third {
+  display: none;
+  transition: ease;
+  transition-duration: 3s;
+}
